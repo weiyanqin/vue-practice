@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/vue"></script>
+    <title>Vue.js</title>
+</head>
+
+<body>
+    <div id="vue-app">
+        <h1> Events </h1>
+        <button v-on:click="add(1)">涨一岁</button>
+        <button v-on:click="substract(1)">减一岁</button>
+        <button v-on:dblclick="add(10)">涨一岁</button>
+        <button v-on:dblclick="substract(10)">减一岁</button>
+        <p>My age is {{ age }}</p>
+
+        <div id="canvas" v-on:mousemove="updateXY">
+            {{x}} , {{y}}
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
