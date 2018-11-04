@@ -1,1 +1,1 @@
-# vur-practice
+# vue-practice
