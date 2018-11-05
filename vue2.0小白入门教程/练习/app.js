@@ -1,22 +1,12 @@
-new Vue({
-    el: ".app",
+new Vue ({
+    el: '.app',
     data: {
-        name: 'haha',
-        website: '<a href="http://">baidu</a>',
-        age: 30,
-        x: 0,
-        y: 0,
+        name: 'wanghaiming',
+        webSite: '<a href="www.baidu.com">百度</a>'
     },
     methods: {
-        greet: function(string){
-            return `nihao ${string} ${this.name} !`
-        },
-        greet1: function(inc){
-            this.age += inc
-        },
-        update: function(event){
-            this.x = event.offsetX
-            this.y = event.offsetY
+        greet(index){
+            return `good  ${index} ` + this.name
         }
     }
 })
