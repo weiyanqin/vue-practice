@@ -13,12 +13,6 @@ export default {
   name: 'App',
   data(){
     return {
-      products: [
-        {name: '马云', price: '200'},
-        {name: '马化腾', price: '140'},
-        {name: '马冬梅', price: '20'},
-        {name: '马蓉', price: '10'}
-      ]
     }
   },
   components: { ProductListOne,ProductListTwo }
