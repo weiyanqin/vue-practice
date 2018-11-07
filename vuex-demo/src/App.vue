@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <ProductListOne v-bind:products="products"/>
-    <ProductListTwo v-bind:products="products"/>
+    <ProductListOne/>
+    <ProductListTwo/>
   </div>
 </template>
 
@@ -13,6 +13,7 @@ export default {
   name: 'App',
   data(){
     return {
+
     }
   },
   components: { ProductListOne,ProductListTwo }
